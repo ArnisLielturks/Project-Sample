@@ -1,6 +1,7 @@
 {
   "name": "Project-sample",
   "files": [
-    "Scripts/ProjectSample.as"
+    "Scripts/ProjectSample.as",
+    "JS/LoadTextures.js"
   ]
 }
