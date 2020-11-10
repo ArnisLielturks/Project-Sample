@@ -2,6 +2,8 @@
   "name": "Project-sample",
   "files": [
     "Scripts/ProjectSample.as",
-    "JS/LoadTextures.js"
+    "JS/LoadTextures.js",
+    "Textures/TouchInput.png",
+    "Materials/Mushroom.xml"
   ]
 }
