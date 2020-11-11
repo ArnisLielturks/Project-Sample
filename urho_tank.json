@@ -4,7 +4,6 @@
     "Scripts/ProjectSample.as",
     "JS/LoadTextures.js",
     "Textures/TouchInput.png",
-    "Materials/Mushroom.xml",
-    "Models/TestModel.mdl"
+    "Materials/Mushroom.xml"
   ]
 }
