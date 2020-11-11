@@ -63,12 +63,12 @@ void CreateScene()
     const uint NUM_OBJECTS = 200;
     for (uint i = 0; i < NUM_OBJECTS; ++i)
     {
-        Node@ mushroomNode = scene_.CreateChild("Mushroom");
+        Node@ mushroomNode = scene_.CreateChild("Teapot");
         mushroomNode.position = Vector3(Random(90.0f) - 45.0f, 0.0f, Random(90.0f) - 45.0f);
         mushroomNode.rotation = Quaternion(0.0f, Random(360.0f), 0.0f);
         mushroomNode.SetScale(0.5f + Random(2.0f));
         StaticModel@ mushroomObject = mushroomNode.CreateComponent("StaticModel");
-        mushroomObject.model = cache.GetResource("Model", "Models/Mushroom.mdl");
+        mushroomObject.model = cache.GetResource("Model", "Models/TestModel.mdl");
         mushroomObject.material = cache.GetResource("Material", "Materials/Mushroom.xml");
     }
 
