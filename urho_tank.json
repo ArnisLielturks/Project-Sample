@@ -3,7 +3,7 @@
   "files": [
     "Scripts/ProjectSample.as",
     "JS/LoadTextures.js",
-    "Textures/TouchInput.png",
+    "Textures/RandomTexture.png",
     "Materials/Mushroom.xml",
     "Models/TestModel.mdl"
   ]
