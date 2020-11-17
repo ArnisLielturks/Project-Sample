@@ -68,7 +68,7 @@ void CreateScene()
         mushroomNode.rotation = Quaternion(0.0f, Random(360.0f), 0.0f);
         mushroomNode.SetScale(0.5f + Random(2.0f));
         StaticModel@ mushroomObject = mushroomNode.CreateComponent("StaticModel");
-        mushroomObject.model = cache.GetResource("Model", "Models/Mushroom.mdl");
+        mushroomObject.model = cache.GetResource("Model", "Models/TestModel.mdl");
         mushroomObject.material = cache.GetResource("Material", "Materials/Mushroom.xml");
     }
 
